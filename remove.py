@@ -1,0 +1,15 @@
+pets = ['cat', 'dog', 'rat', 'pig', 'tiger']
+snakes=['python','anaconda','fish','cobra','mamba']
+print("Pets are :",pets)
+print("Snakes are :",snakes)
+animals=pets+snakes
+print("Animals are :",animals)
+snakes.remove("fish")
+print("updated Snakes are :",snakes)
+
+output
+
+Pets are : ['cat', 'dog', 'rat', 'pig', 'tiger']
+Snakes are : ['python', 'anaconda', 'fish', 'cobra', 'mamba']
+Animals are : ['cat', 'dog', 'rat', 'pig', 'tiger', 'python', 'anaconda', 'fish', 'cobra', 'mamba']
+updated Snakes are : ['python', 'anaconda', 'cobra', 'mamba']
