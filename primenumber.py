@@ -1,0 +1,23 @@
+print("Prime numbers between 1 and 20 are:")
+ulmt=20;
+for num in range(ulmt):
+   # prime numbers are greater than 1
+   if num > 1:
+       for i in range(2,num):
+           if (num % i) == 0:
+               break
+       else:
+           print(num)
+
+output
+r (4)/script.py"
+Prime numbers between 1 and 20 are:
+2
+3
+5
+7
+11
+13
+17
+19
+PS C:\Users\nidhi\Desktop\New folder (4)> 
